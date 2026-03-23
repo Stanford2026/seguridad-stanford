@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seguridad STANFORD</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0a0f1c;
+    color: white;
+}
+header {
+    background: #111a2e;
+    text-align: center;
+    padding: 20px;
+}
+header img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+header h1 {
+    color: #00bfff;
+    margin: 5px;
+}
+nav {
+    background: #0d1526;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: url('https://images.unsplash.com/photo-1581090700227-1e8a6b4f2b43');
+    background-size: cover;
+}
+.section {
+    padding: 40px;
+    text-align: center;
+}
+.card {
+    background: #111a2e;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 250px;
+}
+footer {
+    background: #111a2e;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <!-- AQUÍ VA TU LOGO -->
+    <img src="logo.png" alt="Logo Seguridad STANFORD">
+    <h1>SEGURIDAD STANFORD</h1>
+    <p>Protección y confianza</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<section class="hero">
+    <h2>Seguridad Profesional 24/7</h2>
+    <p>Protegemos lo que más te importa</p>
+</section>
+
+<section class="section">
+    <h2>Servicios</h2>
+
+    <div class="card">
+        <h3>Vigilancia Física</h3>
+        <p>Guardas capacitados</p>
+    </div>
+
+    <div class="card">
+        <h3>Seguridad Electrónica</h3>
+        <p>Cámaras y alarmas</p>
+    </div>
+
+    <div class="card">
+        <h3>Escoltas</h3>
+        <p>Protección personalizada</p>
+    </div>
+
+</section>
+
+<section class="section">
+    <h2>Contacto</h2>
+    <p>📞 300 000 0000</p>
+    <p>📧 contacto@stanfordseguridad.com</p>
+    <p>📍 Cali, Colombia</p>
+</section>
+
+<footer>
+    <p>© 2026 Seguridad STANFORD</p>
+</footer>
+
+</body>
+</html>
